@@ -3,7 +3,7 @@ Description=Manages connections with operator hardware
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /root/operator_service.py
+ExecStart=/usr/bin/python3 /root/Operator/operator_service.py
 Restart=on-failure
 RestartSec=20s
 StandardOutput=null
